@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ApiTestSuite">
+    <test name="ApiTests">
+        <classes>
+            <class name="com.endpoints.PostsTest"/>
+            <class name="com.endpoints.CommentsTest"/>
+            <class name="com.endpoints.AlbumsTest"/>
+            <class name="com.endpoints.PhotosTest"/>
+            <class name="com.endpoints.TodosTest"/>
+            <class name="com.endpoints.UsersTest"/>
+        </classes>
+    </test>
+</suite>
